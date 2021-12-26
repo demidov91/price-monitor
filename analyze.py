@@ -36,7 +36,7 @@ def analyze(date):
 def prepare_data(data, products):
     for p in products:
         item = data.get(f'{p["source"]}-{p["identifier"]}')
-        if not item['price']:
+        if item is None or not item['price']:
             continue
 
         if item is not None:
@@ -56,12 +56,10 @@ def prepare_data(data, products):
 def build_categories_prices(data, missing_categories=None):
     missing_categories = missing_categories or set()
     prices = {}
-    for item in data:
-        print(item)
+    for item in (x for x in data if x['prefer'] is not bool(missing_categories)):
         category = item['category']
-        if item['prefer'] or category in missing_categories:
-            if category not in prices or prices[category]['effective_price'] > item['effective_price']:
-                prices[category] = item
+        if category not in prices or prices[category]['effective_price'] > item['effective_price']:
+            prices[category] = item
 
     return prices
 
