@@ -5,16 +5,27 @@ PRODUCTS = [
         'source': 'evroopt',
         'identifier': '1207465',
         'categories': ['chicken', 'meat'],
-        'name_ru': 'Тушка охлажденная потрашёная',
+        'name_ru': 'Тушка цыпленка-бройлера «Петруха» потрошеная, охлажденная 1 кг',
     },
     {
         'source': 'evroopt',
         'identifier': '440852',
         'categories': ['chicken', 'meat'],
-        'name_ru': 'Тушка охлажденная',
+        'name_ru': 'Тушка цыплёнка-бройлера охлаждённая, 1 кг., фасовка 1.4 кг',
         'coefficients': {
             'chicken': Decimal('1.0371'),
-        }
+        },
+        'prefer': False,
+    },
+    {
+        'source': 'evroopt',
+        'identifier': '601522',
+        'categories': ['chicken', 'meat'],
+        'name_ru': 'Тушка цыпленка-бройлера «Петруха» 1 кг., фасовка 1.62 - 1.87 кг',
+        'coefficients': {
+            'chicken': Decimal('0.9192'),
+        },
+        'prefer': False,
     },
     {
         'source': 'evroopt',
