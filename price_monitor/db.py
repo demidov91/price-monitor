@@ -48,6 +48,9 @@ PRODUCTS = [
         'identifier': '474138',
         'categories': ['milk_low_fat', 'milk', 'dairy'],
         'name_ru': '«Молочный гостинец» ультрапастеризованное, 1.5%, 930 мл',
+        'coefficients': {
+            'milk_low_fat': Decimal('1.0753'),
+        }
     },
     {
         'source': 'evroopt',

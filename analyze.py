@@ -18,7 +18,7 @@ def analyze(date):
 
     products = PRODUCTS
 
-    all_items = tuple(prepare_data(todays_data, products))
+    all_items = tuple(prepare_data(todays_data, products, date))
 
     categories = {x['categories'][0] for x in products}
     price = build_categories_prices(all_items)
@@ -30,10 +30,10 @@ def analyze(date):
         if missing:
             logger.error('Some categories are really missing:\n%s', missing)
 
-    print(price)
+    save_analytics(price.values())
 
 
-def prepare_data(data, products):
+def prepare_data(data, products, date):
     for p in products:
         item = data.get(f'{p["source"]}-{p["identifier"]}')
         if item is None or not item['price']:
@@ -50,6 +50,8 @@ def prepare_data(data, products):
                 item['effective_price'] = price
 
             item['prefer'] = p.get('prefer', True)
+            item['date'] = date.strftime('%Y-%m-%d')
+            item['name'] = p['name_ru']
             yield item
 
 
@@ -62,6 +64,16 @@ def build_categories_prices(data, missing_categories=None):
             prices[category] = item
 
     return prices
+
+
+def save_analytics(data):
+    with open('info.csv', mode='a', newline='') as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=['category', 'effective_price', 'source', 'identifier', 'original_price', 'datetime', 'date', 'prefer', 'name'],
+        )
+        writer.writeheader()
+        writer.writerows(data)
 
 
 if __name__ == '__main__':
