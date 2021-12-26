@@ -202,7 +202,7 @@ PRODUCTS = [
         'categories': ['bread'],
         'name_ru': 'Хлеб «Водар Темный» нарезанный, 410 г',
         'coefficients': {
-            'oatmeal': Decimal('1.09756'),
+            'bread': Decimal('1.09756'),
         },
     },
     {
@@ -211,7 +211,7 @@ PRODUCTS = [
         'categories': ['bread'],
         'name_ru': 'Хлеб «Водар» светлый, нарезанный, 430 г',
         'coefficients': {
-            'oatmeal': Decimal('1.0465'),
+            'bread': Decimal('1.0465'),
         },
     },
     {
@@ -239,8 +239,9 @@ PRODUCTS = [
         'categories': ['kaubasa', 'meat'],
         'name_ru': 'Колбаса вареная «Докторская» 400 г',
         'coefficients': {
-            'oatmeal': Decimal('2.5'),
+            'kaubasa': Decimal('2.5'),
         },
+        'prefer': False,
     },
     {
         'source': 'evroopt',
@@ -248,7 +249,8 @@ PRODUCTS = [
         'categories': ['kaubasa', 'meat'],
         'name_ru': 'Колбаса вареная «Молочная» новая 400 г',
         'coefficients': {
-            'oatmeal': Decimal('2.5'),
+            'kaubasa': Decimal('2.5'),
         },
+        'prefer': False,
     },
 ]
