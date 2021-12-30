@@ -72,7 +72,6 @@ def save_analytics(data):
             f,
             fieldnames=['category', 'effective_price', 'source', 'identifier', 'original_price', 'datetime', 'date', 'prefer', 'name'],
         )
-        writer.writeheader()
         writer.writerows(data)
 
 
