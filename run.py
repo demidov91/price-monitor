@@ -14,7 +14,7 @@ def run():
     filename = base_filename + '.csv'
     index = 1
 
-    while os.path.exists(filename + '.csv'):
+    while os.path.exists(filename):
         index += 1
         filename = f'{base_filename}-{index}.csv'
 
