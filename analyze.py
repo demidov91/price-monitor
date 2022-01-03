@@ -57,9 +57,14 @@ def prepare_data(data, products, date):
 
 def build_categories_prices(data, missing_categories=None):
     missing_categories = missing_categories or set()
+    categories_are_specified = bool(missing_categories)
     prices = {}
-    for item in (x for x in data if x['prefer'] is not bool(missing_categories)):
+    for item in (x for x in data if x['prefer'] is not categories_are_specified):
         category = item['category']
+
+        if categories_are_specified and category not in missing_categories:
+            continue
+
         if category not in prices or prices[category]['effective_price'] > item['effective_price']:
             prices[category] = item
 
