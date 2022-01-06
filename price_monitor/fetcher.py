@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 
 def query_data():
-    return asyncio.run(save_evroopt_data())
+    return asyncio.get_event_loop().run_until_complete(save_evroopt_data())    # py3.6 compatible
 
 
 async def save_evroopt_data():
