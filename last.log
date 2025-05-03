@@ -1,0 +1,101 @@
+Gor 403 status code instead of 200 on https://e-dostavka.by/catalog/item_365111.html query. Body:
+b'<!DOCTYPE html>\n\t<html lang="en">\n\t   <head>\n\t\t  <meta charset="utf-8">\n\t\t  <meta http-equiv="X-UA-Compatible" content="IE=edge">\n\t\t  <meta name="viewport" content="width=device-width,initial-scale=1">\n\t\t  <meta name="robots" content="noindex">\n\t\t  <title>Too Many Requests</title>\n\t\t  <style id="" media="all">*{-webkit-box-sizing:border-box;box-sizing:border-box}body{padding:0;margin:0}#notfound{position:relative;height:100vh}#notfound .notfound{position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.notfound{max-width:460px;width:100%;text-align:center;line-height:1.4}.notfound .notfound-404{position:relative;width:180px;height:180px;margin:0 auto 50px}.notfound .notfound-404>div:first-child{position:absolute;left:0;right:0;top:0;bottom:0;background:#ffa200;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);border:5px dashed #000;border-radius:5px}.notfound .notfound-404>div:first-child:before{content:\'\';position:absolute;left:-5px;right:-5px;bottom:-5px;top:-5px;-webkit-box-shadow:0 0 0 5px rgba(0,0,0,.1) inset;box-shadow:0 0 0 5px rgba(0,0,0,.1) inset;border-radius:5px}.notfound .notfound-404 h1{font-family:cabin,sans-serif;color:#000;font-weight:700;margin:0;font-size:90px;position:absolute;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);left:50%;text-align:center;height:40px;line-height:40px}.notfound h2{font-family:cabin,sans-serif;font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:7px}.notfound h3{font-family:cabin,sans-serif;font-size:14px;font-weight:500;text-transform:uppercase;letter-spacing:7px}.notfound p{font-family:cabin,sans-serif;font-size:16px;color:#000;font-weight:400}.notfound a{font-family:cabin,sans-serif;display:inline-block;padding:10px 25px;background-color:#8f8f8f;border:none;border-radius:40px;color:#fff;font-size:14px;font-weight:700;text-transform:uppercase;text-decoration:none;-webkit-transition:.2s all;transition:.2s all}.notfound a:hover{background-color:#2c2c2c}</style>\n\t   <body>\n\t\t  <div id="notfound">\n\t\t\t <div class="notfound">\n\t\t\t\t<div class="notfound-404">\n\t\t\t\t   <div></div>\n\t\t\t\t   <h1>429</h1>\n\t\t\t\t</div>\n\t\t\t\t<h2>This request is blocked by a Firewall, too many requests</h2>\n\t\t\t\t<h3>Request URL: https://e-dostavka.by/product/365111</h3>\n\t\t\t\t<p>IP: 35.157.158.243</p>\n\t\t\t\t<p>d4a68614-03a1-4beb-8f7f-667fd9ce72ad</p>\n\t\t\t </div>\n\t\t  </div>\n\t   </body>\n\t</html>'
+Failed to get 1207465 data. Name: Тушка цыпленка-бройлера «Петруха» потрошеная, охлажденная 1 кг. Error: 
+Failed to get 440852 data. Name: Тушка цыплёнка-бройлера охлаждённая, 1 кг., фасовка 1.4 кг. Error: 
+Failed to get 601522 data. Name: Тушка цыпленка-бройлера «Петруха» 1 кг., фасовка 1.62 - 1.87 кг. Error: Cannot connect to host edostavka.by:443 ssl:default [Connect call failed ('178.172.160.81', 443)]
+Failed to get 567997 data. Name: «Бабушкина крынка» ультрапастеризованное, 1.5%, 900 мл. Error: 
+Failed to get 696039 data. Name: Молоко «Поставы городок» пастеризованное, 1.5%, 1 л. Error: 
+Failed to get 474138 data. Name: «Молочный гостинец» ультрапастеризованное, 1.5%, 930 мл. Error: 
+Failed to get 911715 data. Name: «Савушкин» ультрапастеризованное, 1.5%, 1 л. Error: 
+Failed to get 568002 data. Name: «Бабушкина крынка» ультрапастеризованное, 3.2%, 900 мл. Error: 
+Failed to get 322984 data. Name: «Сафiйка» ультрапастеризованное, 3.2%, 950 мл. Error: Server disconnected
+Failed to get 819616 data. Name: «Молочный гостинец» ультрапастеризованное, 3.2%, 950 мл. Error: 
+Failed to get 761990 data. Name: «Брест-Литовск» Классический, 45 %, 200 г. Error: 
+Failed to get 967482 data. Name: «Брест-Литовск» Российский, 50%, 200 г. Error: 
+Failed to get 761983 data. Name: «Брест-Литовск» Легкий, 35 %, 200 г. Error: 
+Failed to get 761994 data. Name: «Брест-Литовск» Сливочный, 50 %, 200 г. Error: 
+Failed to get 684114 data. Name: Творог рассыпчатый «Савушкин», 5%, 350 г. Error: 
+Failed to get 880935 data. Name: Творог рассыпчатый «Савушкин», 2%, 350 г. Error: 
+Failed to get 598810 data. Name: Творог рассыпчатый «Савушкин», 9%, 350 г. Error: 
+Failed to get 225378 data. Name: «Оршанская Птицефабрика» Семейный завтрак, С1, 10 шт. Error: 
+Failed to get 35073 data. Name: «Оршанская Птицефабрика» Столовые, С1, 10 шт. Error: Server disconnected
+Failed to get 24541 data. Name: «1-я Минская птицефабрика» С1, 10 шт. Error: Cannot connect to host edostavka.by:443 ssl:default [Connect call failed ('178.172.160.81', 443)]
+Failed to get 379379 data. Name: «1-я Минская птицефабрика» С1, 10 шт. Error: Server disconnected
+Failed to get 1222130 data. Name: «Родное подворье» С1, 10 шт. Error: 
+Failed to get 1192 data. Name: Хлопья овсяные «Экстра» № 3, 500 г. Error: 
+Failed to get 1057058 data. Name: Хлопья овсяные «Экстра» № 1, 500 г. Error: 
+Failed to get 882055 data. Name: Хлеб «Майский» традиционный, 450 г. Error: 
+Failed to get 533163 data. Name: Хлеб «Водар Темный» нарезанный, 410 г. Error: Cannot connect to host edostavka.by:443 ssl:default [Connect call failed ('178.172.160.81', 443)]
+Failed to get 560208 data. Name: Хлеб «Водар» светлый, нарезанный, 430 г. Error: 
+Failed to get 1256057 data. Name: Хлеб «Ржано-пшеничный Классика-6» нарезанный, 450 г. Error: 
+Failed to get 33827 data. Name: «Докторская» высшего сорта, 1 кг, фасовка 0.6 - 0.8 кг. Error: 
+Failed to get 537240 data. Name: Колбаса вареная «Докторская» 400 г. Error: 
+Failed to get 457685 data. Name: Колбаса вареная «Молочная» новая 400 г. Error: 
+Some categories are missing:
+{'cheese', 'egg', 'kaubasa', 'milk_high_fat', 'oatmeal', 'bread', 'tvaroh', 'chicken', 'milk_low_fat'}
+Some categories are really missing:
+{'cheese', 'egg', 'kaubasa', 'milk_high_fat', 'oatmeal', 'bread', 'tvaroh', 'chicken', 'milk_low_fat'}
+[master b8307e9] Add data
+ 1 file changed, 2 insertions(+)
+ create mode 100644 2024-11-17.csv
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Gor 403 status code instead of 200 on https://e-dostavka.by/catalog/item_365111.html query. Body:
+b'<!DOCTYPE html>\n\t<html lang="en">\n\t   <head>\n\t\t  <meta charset="utf-8">\n\t\t  <meta http-equiv="X-UA-Compatible" content="IE=edge">\n\t\t  <meta name="viewport" content="width=device-width,initial-scale=1">\n\t\t  <meta name="robots" content="noindex">\n\t\t  <title>Too Many Requests</title>\n\t\t  <style id="" media="all">*{-webkit-box-sizing:border-box;box-sizing:border-box}body{padding:0;margin:0}#notfound{position:relative;height:100vh}#notfound .notfound{position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.notfound{max-width:460px;width:100%;text-align:center;line-height:1.4}.notfound .notfound-404{position:relative;width:180px;height:180px;margin:0 auto 50px}.notfound .notfound-404>div:first-child{position:absolute;left:0;right:0;top:0;bottom:0;background:#ffa200;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);border:5px dashed #000;border-radius:5px}.notfound .notfound-404>div:first-child:before{content:\'\';position:absolute;left:-5px;right:-5px;bottom:-5px;top:-5px;-webkit-box-shadow:0 0 0 5px rgba(0,0,0,.1) inset;box-shadow:0 0 0 5px rgba(0,0,0,.1) inset;border-radius:5px}.notfound .notfound-404 h1{font-family:cabin,sans-serif;color:#000;font-weight:700;margin:0;font-size:90px;position:absolute;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);left:50%;text-align:center;height:40px;line-height:40px}.notfound h2{font-family:cabin,sans-serif;font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:7px}.notfound h3{font-family:cabin,sans-serif;font-size:14px;font-weight:500;text-transform:uppercase;letter-spacing:7px}.notfound p{font-family:cabin,sans-serif;font-size:16px;color:#000;font-weight:400}.notfound a{font-family:cabin,sans-serif;display:inline-block;padding:10px 25px;background-color:#8f8f8f;border:none;border-radius:40px;color:#fff;font-size:14px;font-weight:700;text-transform:uppercase;text-decoration:none;-webkit-transition:.2s all;transition:.2s all}.notfound a:hover{background-color:#2c2c2c}</style>\n\t   <body>\n\t\t  <div id="notfound">\n\t\t\t <div class="notfound">\n\t\t\t\t<div class="notfound-404">\n\t\t\t\t   <div></div>\n\t\t\t\t   <h1>429</h1>\n\t\t\t\t</div>\n\t\t\t\t<h2>This request is blocked by a Firewall, too many requests</h2>\n\t\t\t\t<h3>Request URL: https://e-dostavka.by/product/365111</h3>\n\t\t\t\t<p>IP: 35.157.158.243</p>\n\t\t\t\t<p>d12a885a-3963-4096-99b2-bc05e8aa4d38</p>\n\t\t\t </div>\n\t\t  </div>\n\t   </body>\n\t</html>'
+Failed to get 1207465 data. Name: Тушка цыпленка-бройлера «Петруха» потрошеная, охлажденная 1 кг. Error: 
+Failed to get 440852 data. Name: Тушка цыплёнка-бройлера охлаждённая, 1 кг., фасовка 1.4 кг. Error: 
+Failed to get 601522 data. Name: Тушка цыпленка-бройлера «Петруха» 1 кг., фасовка 1.62 - 1.87 кг. Error: 
+Failed to get 567997 data. Name: «Бабушкина крынка» ультрапастеризованное, 1.5%, 900 мл. Error: 
+Failed to get 696039 data. Name: Молоко «Поставы городок» пастеризованное, 1.5%, 1 л. Error: 
+Failed to get 474138 data. Name: «Молочный гостинец» ультрапастеризованное, 1.5%, 930 мл. Error: 
+Failed to get 911715 data. Name: «Савушкин» ультрапастеризованное, 1.5%, 1 л. Error: 
+Failed to get 568002 data. Name: «Бабушкина крынка» ультрапастеризованное, 3.2%, 900 мл. Error: Server disconnected
+Failed to get 322984 data. Name: «Сафiйка» ультрапастеризованное, 3.2%, 950 мл. Error: Server disconnected
+Failed to get 819616 data. Name: «Молочный гостинец» ультрапастеризованное, 3.2%, 950 мл. Error: Cannot connect to host edostavka.by:443 ssl:default [Connect call failed ('178.172.160.81', 443)]
+Failed to get 761990 data. Name: «Брест-Литовск» Классический, 45 %, 200 г. Error: 
+Failed to get 967482 data. Name: «Брест-Литовск» Российский, 50%, 200 г. Error: 
+Failed to get 761983 data. Name: «Брест-Литовск» Легкий, 35 %, 200 г. Error: 
+Failed to get 761994 data. Name: «Брест-Литовск» Сливочный, 50 %, 200 г. Error: 
+Failed to get 684114 data. Name: Творог рассыпчатый «Савушкин», 5%, 350 г. Error: 
+Failed to get 880935 data. Name: Творог рассыпчатый «Савушкин», 2%, 350 г. Error: 
+Failed to get 598810 data. Name: Творог рассыпчатый «Савушкин», 9%, 350 г. Error: 
+Failed to get 225378 data. Name: «Оршанская Птицефабрика» Семейный завтрак, С1, 10 шт. Error: 
+Failed to get 35073 data. Name: «Оршанская Птицефабрика» Столовые, С1, 10 шт. Error: Server disconnected
+Failed to get 24541 data. Name: «1-я Минская птицефабрика» С1, 10 шт. Error: 
+Failed to get 379379 data. Name: «1-я Минская птицефабрика» С1, 10 шт. Error: Cannot connect to host edostavka.by:443 ssl:default [Connect call failed ('178.172.160.81', 443)]
+Failed to get 1222130 data. Name: «Родное подворье» С1, 10 шт. Error: 
+Failed to get 1192 data. Name: Хлопья овсяные «Экстра» № 3, 500 г. Error: 
+Failed to get 1057058 data. Name: Хлопья овсяные «Экстра» № 1, 500 г. Error: 
+Failed to get 882055 data. Name: Хлеб «Майский» традиционный, 450 г. Error: 
+Failed to get 533163 data. Name: Хлеб «Водар Темный» нарезанный, 410 г. Error: 
+Failed to get 560208 data. Name: Хлеб «Водар» светлый, нарезанный, 430 г. Error: 
+Failed to get 1256057 data. Name: Хлеб «Ржано-пшеничный Классика-6» нарезанный, 450 г. Error: 
+Failed to get 33827 data. Name: «Докторская» высшего сорта, 1 кг, фасовка 0.6 - 0.8 кг. Error: 
+Failed to get 537240 data. Name: Колбаса вареная «Докторская» 400 г. Error: Cannot connect to host edostavka.by:443 ssl:default [Connect call failed ('178.172.160.81', 443)]
+Failed to get 457685 data. Name: Колбаса вареная «Молочная» новая 400 г. Error: 
+Some categories are missing:
+{'chicken', 'milk_high_fat', 'kaubasa', 'egg', 'tvaroh', 'milk_low_fat', 'bread', 'oatmeal', 'cheese'}
+Some categories are really missing:
+{'chicken', 'milk_high_fat', 'kaubasa', 'egg', 'tvaroh', 'milk_low_fat', 'bread', 'oatmeal', 'cheese'}
+[master aada0ba] Add data
+ 1 file changed, 2 insertions(+)
+ create mode 100644 2024-11-18.csv
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Gor 403 status code instead of 200 on https://e-dostavka.by/catalog/item_882055.html query. Body:
+b'<!DOCTYPE html>\n\t<html lang="en">\n\t   <head>\n\t\t  <meta charset="utf-8">\n\t\t  <meta http-equiv="X-UA-Compatible" content="IE=edge">\n\t\t  <meta name="viewport" content="width=device-width,initial-scale=1">\n\t\t  <meta name="robots" content="noindex">\n\t\t  <title>Too Many Requests</title>\n\t\t  <style id="" media="all">*{-webkit-box-sizing:border-box;box-sizing:border-box}body{padding:0;margin:0}#notfound{position:relative;height:100vh}#notfound .notfound{position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.notfound{max-width:460px;width:100%;text-align:center;line-height:1.4}.notfound .notfound-404{position:relative;width:180px;height:180px;margin:0 auto 50px}.notfound .notfound-404>div:first-child{position:absolute;left:0;right:0;top:0;bottom:0;background:#ffa200;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);border:5px dashed #000;border-radius:5px}.notfound .notfound-404>div:first-child:before{content:\'\';position:absolute;left:-5px;right:-5px;bottom:-5px;top:-5px;-webkit-box-shadow:0 0 0 5px rgba(0,0,0,.1) inset;box-shadow:0 0 0 5px rgba(0,0,0,.1) inset;border-radius:5px}.notfound .notfound-404 h1{font-family:cabin,sans-serif;color:#000;font-weight:700;margin:0;font-size:90px;position:absolute;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);left:50%;text-align:center;height:40px;line-height:40px}.notfound h2{font-family:cabin,sans-serif;font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:7px}.notfound h3{font-family:cabin,sans-serif;font-size:14px;font-weight:500;text-transform:uppercase;letter-spacing:7px}.notfound p{font-family:cabin,sans-serif;font-size:16px;color:#000;font-weight:400}.notfound a{font-family:cabin,sans-serif;display:inline-block;padding:10px 25px;background-color:#8f8f8f;border:none;border-radius:40px;color:#fff;font-size:14px;font-weight:700;text-transform:uppercase;text-decoration:none;-webkit-transition:.2s all;transition:.2s all}.notfound a:hover{background-color:#2c2c2c}</style>\n\t   <body>\n\t\t  <div id="notfound">\n\t\t\t <div class="notfound">\n\t\t\t\t<div class="notfound-404">\n\t\t\t\t   <div></div>\n\t\t\t\t   <h1>429</h1>\n\t\t\t\t</div>\n\t\t\t\t<h2>This request is blocked by a Firewall, too many requests</h2>\n\t\t\t\t<h3>Request URL: https://e-dostavka.by/product/882055/</h3>\n\t\t\t\t<p>IP: 35.157.158.243</p>\n\t\t\t\t<p>a4acc952-0ee2-40f2-812a-769b90da9012</p>\n\t\t\t </div>\n\t\t  </div>\n\t   </body>\n\t</html>'
+Failed to get 1207465 data. Name: Тушка цыпленка-бройлера «Петруха» потрошеная, охлажденная 1 кг. Error: 
+Failed to get 440852 data. Name: Тушка цыплёнка-бройлера охлаждённая, 1 кг., фасовка 1.4 кг. Error: 
+Failed to get 601522 data. Name: Тушка цыпленка-бройлера «Петруха» 1 кг., фасовка 1.62 - 1.87 кг. Error: 
+Failed to get 567997 data. Name: «Бабушкина крынка» ультрапастеризованное, 1.5%, 900 мл. Error: 
+Failed to get 696039 data. Name: Молоко «Поставы городок» пастеризованное, 1.5%, 1 л. Error: 
+Failed to get 474138 data. Name: «Молочный гостинец» ультрапастеризованное, 1.5%, 930 мл. Error: 
+Failed to get 911715 data. Name: «Савушкин» ультрапастеризованное, 1.5%, 1 л. Error: 
+Failed to get 568002 data. Name: «Бабушкина крынка» ультрапастеризованное, 3.2%, 900 мл. E
+
